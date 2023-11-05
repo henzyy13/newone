@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+}
+
+a {
+    cursor: pointer;
+    color: aliceblue;
+}
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(27, 23, 23);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div {
+    width: fit-content;
+    height: 100%;
+    padding-left: 60px;
+    display: flex;
+}
+
+.logo-div img {
+    align-self: center;
+    height: 50px;
+}
+
+.nav-1 {
+    width: fit-content;
+    height: 100%;
+}
+.nav-1 ul {
+    margin-left: 30px;
+}
+
+.nav-1 ul li {
+    display: inline;
+    float: left;
+}
+
+.nav-1 ul li a {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+}
+.sm {
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.sm-fb {
+    width: 20px;
+    height: 20px;
+    background-image: url(../image/fb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sm-in {
+    width: 32px;
+    height: 32px;
+    background-image: url(../image/insta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
